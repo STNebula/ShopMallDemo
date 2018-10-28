@@ -8,4 +8,7 @@ package com.stnebula.fast_core.app;
  * @class TODO
  */
 public enum ConfigType {
+    API_HOST,
+    APPLICATION_CONTEXT,
+    CONFIG_READY,
 }

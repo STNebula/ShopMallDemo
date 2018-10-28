@@ -1,5 +1,7 @@
 package com.stnebula.fast_core.app;
 
+import java.util.WeakHashMap;
+
 /**
  * @project FestECImitate
  * @package com.stnebula.fast_core.app
@@ -8,4 +10,9 @@ package com.stnebula.fast_core.app;
  * @class TODO
  */
 public class Configurator {
+    public static final WeakHashMap<String,Object>FASTEC_CONFIGS = new WeakHashMap<>();
+
+    private  Configurator() {
+
+    }
 }
